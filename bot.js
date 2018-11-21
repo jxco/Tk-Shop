@@ -1,9 +1,9 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(` By DEAD #8844  .`,'https://discord.gg/FgZQRK');
+  client.user.setGame(` By Mohammed#0626   .`,'https://discord.gg/vZcj38v');
   console.log('---------------');
-  console.log('Vemo Bot Is Online')
+  console.log('Tk Shop® Bot Is Online')
   console.log('---------------')
 });
 client.on('message', message => {
@@ -79,7 +79,7 @@ client.on('message', message => {
 if (message.content === '*help') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)    
-      .addField("** مبرمج البوت :wrench: **","**@!      Vemo |D̍͋E͗̐̂A̺̳D#8844   **")
+      .addField("** مبرمج البوت :wrench: **","**@Mohammed#0626   **")
 .setColor('RANDOM')
   message.author.sendEmbed(embed);
  
@@ -173,7 +173,7 @@ client.on("message", message => {
         color: 0x06DF00,
         description: "تم مسح الرسائل بنجاح",
         footer: {
-          text: "vEMO Bot"
+          text: "Mohammed Bot"
         }
       }}).then(msg => {msg.delete(3000)});
                           }
@@ -181,7 +181,7 @@ client.on("message", message => {
      
 });
 client.on('ready',  () => {
-  console.log('By : DEAD');
+  console.log('By : Mohammed');
   console.log(`Logged in as * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
   console.log(`Logged in as * [ " ${client.user.username} " ] Users! [ " ${client.users.size} " ]`);
   console.log(`Logged in as * [ " ${client.user.username} " ] channels! [ " ${client.channels.size} " ]`);
@@ -263,9 +263,9 @@ message.channel.sendEmbed(embed);
 });
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Vemo Bot- Script By : DEAD`);
+      console.log(`Tk Shop® Bot- Script By : Mohammed`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : DEAD ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : Mohammed ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
 client.user.setGame(` ON ${client.guilds.size} Servers - Prefix *help`,"http://twitch.tv/S-F")
@@ -295,7 +295,7 @@ const secreT = [
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
    .setThumbnail(message.author.avatarURL) 
- .addField('Vemo Bot' ,
+ .addField('Mohammed Bot' ,
   `${secreT[Math.floor(Math.random() * secreT.length)]}`)
   message.channel.sendEmbed(embed);
   console.log('[id] Send By: ' + message.author.username)
@@ -326,4 +326,4 @@ client.on('message', message => {
   console.log('[id] Send By: ' + message.author.username)
     }
 });
-client.login("NTExNzkxNTA4MzM3MzI4MTMx.Dsy1mg.XsDmPRByn6WnvCi_2cFGwg9ZJ1c");
+client.login("NTE0NzM2ODM3NjYzNzg0OTcy.Dta_Wg.VRLL-DTXr-0Z6YzziAcFT-9CdFA");
